@@ -1,5 +1,7 @@
 <HTML>
-<HEAD></HEAD>
+<HEAD>
+<script>function playAudio(audio_element) {var x = document.getElementById(audio_element); x.play();}</script>
+</HEAD>
 <BODY>
 Introduction Page For Story Walk
 <!--This Way Must let Repository Public-->
@@ -7,5 +9,7 @@ Introduction Page For Story Walk
 var audio = new Audio("https://fll-18300.github.io/storywalk/goat.mp3")
 audio.play()
 </script>
+
+<audio id="ABC" src="goat.mp3"></audio><button onclick="playAudio('ABC')" type="button">play</button>
 </BODY>
 </HTML>
