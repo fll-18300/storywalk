@@ -1,7 +1,8 @@
-body {
-  background-color: lightgreen;
-}
 
+body {
+ background-image: url("../images/chapter_bg.jpg");
+ background-color: #cccccc;
+}
 h1 {
   color: navy;
   margin-left: 20px;
